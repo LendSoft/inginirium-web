@@ -10,37 +10,6 @@
 
 ---
 
-## Структура проекта
-
-```
-src/
-├── components/
-│   ├── layout/
-│   │   ├── Header/       
-│   │   └── Footer/
-│   ├── home/
-│   │   ├── HeroSlider/    
-│   │   ├── StatsSection/ 
-│   │   ├── LearningPath/  
-│   │   └── WhyUs/       
-│   ├── courses/
-│   │   ├── CourseFilter/  
-│   │   └── CourseGrid/    
-│   └── ui/
-│       └── CourseCard/    
-├── hooks/
-│   ├── useScrollReveal.js
-│   └── useCounter.js
-├── data/
-│   ├── courses.js
-│   └── stats.js
-└── pages/
-    ├── HomePage.jsx
-    └── CoursesPage.jsx
-```
-
----
-
 ## Анимации
 
 - **Canvas в Hero** — сетка точек с линиями
