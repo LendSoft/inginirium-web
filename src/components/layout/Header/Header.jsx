@@ -33,7 +33,7 @@ export default function Header() {
           <div className={styles.topRight}>
             <button
               className={styles.cityBtn}
-              onClick={() => setCity(city === 'Москва' ? 'Нижний Новгород' : 'Москва')}
+              onClick={() => setCity(city === 'Москва' ? 'Самара' : 'Москва')}
             >
               📍 {city}
             </button>

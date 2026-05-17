@@ -41,7 +41,6 @@ export default function HomePage() {
 
       <WhyUs items={WHY_US} />
 
-      {/* Sign-up CTA */}
       <section className={styles.ctaSection} id="signup" ref={ctaRef}>
         <div className={`container ${styles.ctaInner}`}>
           <div className="reveal">

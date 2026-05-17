@@ -54,7 +54,6 @@ export default function Footer() {
       <div className={styles.bottom}>
         <div className="container">
           <span>© 2025 Инжинириум МГТУ. Все права защищены.</span>
-          <span>Учебный проект</span>
         </div>
       </div>
     </footer>

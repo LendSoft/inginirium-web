@@ -12,9 +12,6 @@ export default function WhyUs({ items }) {
         <h2 className={`section-title reveal ${styles.title}`}>
           Почему выбирают Инжинириум
         </h2>
-        <p className={`section-sub reveal`} data-delay="80">
-          100&nbsp;000 семей доверяют нам образование своих детей
-        </p>
 
         <div className={styles.grid}>
           {items.map((item, i) => (

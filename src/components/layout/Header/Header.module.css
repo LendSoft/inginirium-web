@@ -85,7 +85,7 @@
 }
 .logoBadge {
   background: var(--blue);
-  color: var(--white);
+  color: var(--gray-900);
   font-size: .62rem;
   font-weight: 700;
   letter-spacing: .06em;
@@ -96,7 +96,7 @@
 .logoText {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--gray-900);
 }
 
 .nav {
@@ -115,11 +115,11 @@
 }
 .navLink:hover {
   background: var(--blue-light);
-  color: var(--blue);
+  color: var(--gray-900);
 }
 .navLinkActive {
   background: var(--blue-light);
-  color: var(--blue);
+  color: var(--gray-900);
 }
 
 .headerCta {

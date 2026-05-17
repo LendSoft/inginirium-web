@@ -13,7 +13,6 @@
   position: relative;
 }
 
-/* The horizontal connector line */
 .grid::before {
   content: '';
   position: absolute;
@@ -51,7 +50,7 @@
   background: var(--blue);
   border-radius: 18px;
   margin: 0 auto 14px;
-  box-shadow: 0 6px 20px rgba(0,70,168,.25);
+  box-shadow: 0 6px 20px rgba(0,0,0,.15);
 }
 
 .icon {
@@ -75,7 +74,7 @@
 .ages {
   font-size: .75rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--gray-900);
   letter-spacing: .05em;
   text-transform: uppercase;
   margin-bottom: 6px;

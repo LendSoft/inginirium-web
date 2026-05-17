@@ -18,16 +18,17 @@
 }
 .btn:hover {
   border-color: var(--blue);
-  color: var(--blue);
+  color: var(--gray-900);
   transform: translateY(-1px);
 }
 .btnActive {
   border-color: var(--blue);
   background: var(--blue);
-  color: var(--white);
+  color: var(--gray-900);
 }
 .btnActive:hover {
   background: var(--blue-dark);
   border-color: var(--blue-dark);
+  color: var(--white);
   transform: none;
 }

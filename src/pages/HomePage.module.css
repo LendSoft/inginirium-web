@@ -34,11 +34,11 @@
 .ctaTitle {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 700;
-  color: var(--white);
+  color: var(--gray-900);
   margin-bottom: 10px;
 }
 .ctaSub {
-  color: rgba(255,255,255,.78);
+  color: var(--gray-600);
   font-size: .98rem;
 }
 
@@ -52,25 +52,25 @@
   padding: 13px 20px;
   border-radius: var(--radius);
   border: none;
-  background: rgba(255,255,255,.15);
-  color: var(--white);
+  background: rgba(255,255,255,.55);
+  color: var(--gray-900);
   font-size: .95rem;
   font-family: inherit;
   outline: none;
   min-width: 240px;
   transition: background .2s;
 }
-.ctaInput::placeholder { color: rgba(255,255,255,.5); }
-.ctaInput:focus { background: rgba(255,255,255,.22); }
+.ctaInput::placeholder { color: rgba(26,31,46,.4); }
+.ctaInput:focus { background: rgba(255,255,255,.75); }
 
 .ctaBtn {
   padding: 13px 32px;
   font-size: .95rem;
-  background: var(--white);
-  color: var(--blue);
+  background: var(--gray-900);
+  color: var(--white);
 }
 .ctaBtn:hover {
-  background: var(--gray-100);
+  background: #333;
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+  box-shadow: 0 4px 16px rgba(0,0,0,.25);
 }

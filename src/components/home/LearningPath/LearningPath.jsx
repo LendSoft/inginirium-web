@@ -32,7 +32,6 @@ export default function LearningPath({ steps }) {
               <p className={styles.cardDesc}>{step.desc}</p>
             </div>
           ))}
-          {/* connector line behind cards (CSS only) */}
         </div>
       </div>
     </section>

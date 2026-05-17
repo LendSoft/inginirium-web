@@ -20,13 +20,13 @@
 .num {
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 700;
-  color: var(--white);
+  color: var(--gray-900);
   line-height: 1;
 }
 
 .label {
   font-size: .85rem;
-  color: rgba(255,255,255,.75);
+  color: rgba(26,31,46,.65);
 }
 
 @media (max-width: 640px) {

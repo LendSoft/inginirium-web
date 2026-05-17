@@ -1,9 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
 
-/**
- * Animates a number from 0 to `target` once the returned `ref`
- * enters the viewport.
- */
 export default function useCounter(target, duration = 1800) {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
@@ -22,7 +18,6 @@ export default function useCounter(target, duration = 1800) {
           const tick = (now) => {
             const elapsed = now - startTime
             const progress = Math.min(elapsed / duration, 1)
-            // ease-out quad
             const eased = 1 - (1 - progress) * (1 - progress)
             setCount(Math.floor(eased * target))
             if (progress < 1) requestAnimationFrame(tick)

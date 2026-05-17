@@ -1,9 +1,5 @@
 import { useEffect, useRef } from 'react'
 
-/**
- * Adds 'is-visible' class to elements with .reveal / .reveal-left / .reveal-right
- * inside the given container ref when they enter the viewport.
- */
 export default function useScrollReveal(containerRef, deps = []) {
   useEffect(() => {
     const root = containerRef?.current ?? document
@@ -24,6 +20,5 @@ export default function useScrollReveal(containerRef, deps = []) {
 
     targets.forEach((el) => observer.observe(el))
     return () => observer.disconnect()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps)
 }
