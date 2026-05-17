@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.item {
+  transition: opacity .35s ease, transform .35s ease;
+}
+
+.hidden .item {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.visible .item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.empty {
+  text-align: center;
+  padding: 64px 20px;
+  color: var(--gray-400);
+}
+.empty span { font-size: 3rem; display: block; margin-bottom: 12px; }
+.empty p    { font-size: 1rem; }

@@ -1,0 +1,64 @@
+.footer {
+  background: #0D1B3E;
+  color: rgba(255,255,255,.75);
+  padding-top: 56px;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 36px;
+  padding-bottom: 48px;
+}
+
+.brand { display: flex; flex-direction: column; gap: 12px; }
+
+.logo {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 1.15rem; font-weight: 700; color: var(--white);
+}
+.logoBadge {
+  background: var(--blue);
+  color: var(--white);
+  font-size: .6rem; font-weight: 700;
+  padding: 2px 7px; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.desc { font-size: .82rem; line-height: 1.6; opacity: .65; }
+
+.socials { display: flex; gap: 8px; margin-top: 4px; }
+.socialBtn {
+  width: 34px; height: 34px; border-radius: 8px;
+  background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .85rem; color: rgba(255,255,255,.8);
+  transition: background .2s, transform .2s;
+}
+.socialBtn:hover { background: var(--blue); transform: translateY(-2px); }
+
+.colTitle {
+  font-size: .88rem; font-weight: 700; color: var(--white);
+  margin-bottom: 14px;
+}
+.colList { display: flex; flex-direction: column; gap: 9px; }
+.colList a {
+  font-size: .82rem; opacity: .65;
+  transition: opacity .2s, color .2s;
+}
+.colList a:hover { opacity: 1; color: var(--orange); }
+
+.bottom {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 18px 0;
+}
+.bottom > div {
+  display: flex; justify-content: space-between;
+  font-size: .78rem; opacity: .4;
+}
+
+@media (max-width: 900px) {
+  .inner { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .inner { grid-template-columns: 1fr; }
+}
