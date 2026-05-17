@@ -83,6 +83,11 @@
   gap: 8px;
   flex-shrink: 0;
 }
+.logoImg {
+  height: 40px;
+  width: auto;
+  display: block;
+}
 .logoBadge {
   background: var(--blue);
   color: var(--gray-900);

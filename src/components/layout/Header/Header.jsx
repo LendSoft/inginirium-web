@@ -46,8 +46,7 @@ export default function Header() {
       <div className={styles.mainBar}>
         <div className={`container ${styles.mainInner}`}>
           <NavLink to="/" className={styles.logo}>
-            <span className={styles.logoBadge}>МГТУ</span>
-            <span className={styles.logoText}>Инжинириум</span>
+            <img src="/inginirium mgtu.png" alt="Инжинириум МГТУ" className={styles.logoImg} />
           </NavLink>
 
           <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>
